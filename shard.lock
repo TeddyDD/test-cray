@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  cray:
+    gitlab: TeddyDD/cray
+    commit: 6e58325b49affe6055bed1b9ca0e4cd1424acb25
+
+  cray_raygui:
+    gitlab: TeddyDD/cray-raygui
+    commit: 1091fa7410e7978852f9475bea547c06db136f5f
+

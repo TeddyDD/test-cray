@@ -1,0 +1,21 @@
+name: test-cray
+version: 0.1.0
+
+authors:
+  - Daniel Lewan <vision360.daniel@gmail.com>
+
+targets:
+  test-cray:
+    main: src/test-cray.cr
+
+dependencies:
+  cray:
+    gitlab: TeddyDD/cray
+    branch: raylib-2
+  cray_raygui:
+    gitlab: TeddyDD/cray-raygui
+
+
+crystal: 0.26.1
+
+license: MIT
